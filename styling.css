@@ -1,0 +1,57 @@
+ul
+{
+	/*makes the bulltins go away and sets the margin and padding to default*/
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	/*dark gray background*/
+	background-color:#333;
+	/*makes the nav bar stay at the top*/			
+	position:fixed;
+	top:0;
+	width:100%;
+}
+li
+{
+	/*makes the list all in one line*/
+	display:inline;
+	/*uses float to get all block element to slide next to each other*/
+	float:left;
+	
+}
+li a
+{
+	/*displays link as block element so makes the whole block clickable*/
+	display:block;
+	/*uses padding to make the blocks on bar look good*/
+	padding:14px 16px;
+	/*text colour is white*/
+	color:white;
+	/*text is centered*/
+    text-align:center;
+	text-decoration:none;
+
+}
+/* changes the block colour to black when hover on top */
+li a:hover 
+{
+  background-color:black;
+}
+.active
+/*the page the user's on the block turns green*/
+{
+	background-color:#4CAF50;
+}
+h1
+{
+	/*text colour is blue*/
+	color:rgb(36,112,170);
+	/*makes text border and stuff look good*/
+	margin-left:auto;
+	margin-right:auto;
+	/*align text*/
+	text-align:center;
+	/*underline text*/
+	text-decoration:underline;
+}
