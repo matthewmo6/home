@@ -54,6 +54,7 @@ h1
 	text-align:center;
 	/*underline text*/
 	text-decoration:underline;
+	font-size:300%;
 	
 }
 /*centers images*/
@@ -63,10 +64,11 @@ h1
   margin-left: auto;
   margin-right: auto;
 }
-h2
+h3
 {
 	/*underline subtitle*/
 	text-decoration:underline;
+	color:purple;
 }
 .paragraph1
 {
@@ -74,7 +76,6 @@ h2
 	color:green;
 	/*font size is 20px*/
 	font-size:20px;
-	text-align:center-left;
 	margin-left:10%;
 	margin-right:10%;
 }
@@ -83,4 +84,12 @@ h2
 	/*centers text*/
 	text-align:center;
 }
-
+.homepage
+{	
+	/*makes the text looks good and puts colour on it*/
+	color:purple;
+}
+iframe
+{
+	border:0;
+}
