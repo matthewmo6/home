@@ -89,7 +89,39 @@ h3
 	/*makes the text looks good and puts colour on it*/
 	color:purple;
 }
+/*iframe border*/
 iframe
 {
 	border:0;
+}
+/*makes the text bigger and better*/
+.trips
+{
+	font-size:18px;
+	margin-left:20px;
+	margin-right:20px;
+}
+table, th, td
+{
+	/*table border*/
+	border: 1px solid black;
+	/*margin to make look good*/
+	margin-left:auto;
+	margin-right:auto;
+	/*center text*/
+	text-align:center;
+}
+/*makes the text bigger and better*/
+.hobby
+{
+	font-size:18px;
+	margin-left:20px;
+	margin-right:20px;
+}
+/*makes the text bigger and better*/
+.references
+{
+	font-size:18px;
+	margin-left:20px;
+	margin-right:20px;
 }
